@@ -5,11 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Who Is This TK</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      /* Two stacked backgrounds: turtle.gif (bottom), stars-bg.gif (top) */
+      background-image: url('turtle.gif'), url('stars-bg.gif');
+      background-repeat: repeat, repeat; /* tile both like old-school wallpapers */
+      background-attachment: fixed, fixed; /* keep both fixed while scrolling */
+      background-size: auto, auto; /* keep natural GIF tiling */
+    }
+
+    table {
+      border: 2px solid cyan;
+      width: 1400px;
+    }
+  </style>
 </head>
-<body background="stars-bg.gif">
+<body>
 
   <center>
-    <table border="2" cellpadding="10" cellspacing="0" width="1400">
+    <table cellpadding="10" cellspacing="0">
       <!-- Header row -->
       <tr>
         <td align="center">
@@ -17,6 +31,13 @@
             Woah did the tk hit all their off damage? That's unheard of!
           </h1>
           <p style="color: yellow;">Someone invite them to low quick</p>
+        </td>
+      </tr>
+
+      <!-- Navigation row -->
+      <tr>
+        <td align="center">
+          <a class="nav-link" href="credits.html">Credits</a>
         </td>
       </tr>
 
@@ -55,7 +76,3 @@
       </tr>
 
     </table>
-  </center>
-
-</body>
-</html>
