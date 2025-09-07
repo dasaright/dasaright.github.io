@@ -1,35 +1,18 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  background-color: black;
+  background-image: url('stars-bg.gif'); /* Replace with your own starfield or retro bg */
+  background-repeat: repeat;
+  font-family: "Courier New", monospace;
 }
 
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-}
-
-nav a {
-  color: #fff;
-  margin: 0 10px;
+.nav-link {
+  color: cyan;
+  font-weight: bold;
   text-decoration: none;
+  padding: 4px 8px;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 2rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  background: #eee;
+.nav-link:hover {
+  background-color: darkblue;
+  color: yellow;
 }
